@@ -56,6 +56,8 @@ public class DisplayUtil {
     /**
      * 不能在onCreate方法中调用
      * 获取真正屏幕的物理尺寸
+     * 6.0(23)正常
+     * 4.4(19)返回的是除底部Navigation的高度
      * @param activity
      * @return
      */
